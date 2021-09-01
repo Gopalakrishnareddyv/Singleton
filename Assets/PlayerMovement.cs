@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
            GameObject temp= Instantiate(bulletPrefab, firePosition.position, Quaternion.identity);
-            BulletPool.Singleton.AddBullet(temp);
+           BulletPool.Singleton.AddBullet(temp);
         }
     }
 }

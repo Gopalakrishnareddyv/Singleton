@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 4748030520058058686}
   - component: {fileID: 4748030520058058687}
   - component: {fileID: -6796870930833444218}
-  - component: {fileID: 710157015}
+  - component: {fileID: 384123094}
   m_Layer: 0
-  m_Name: Enemy (0)
+  m_Name: Enemy (0) 2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -114,7 +114,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &710157015
+--- !u!114 &384123094
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,4 +126,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7769bdb1b6c1dae42afa7bc1b80a3207, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyInfo: {fileID: 11400000, guid: 0f33f0fe79fec0549a9f975377a98a05, type: 2}
+  enemyInfo: {fileID: 11400000, guid: f51f198fe6f673e479cf1a9e181bb541, type: 2}
